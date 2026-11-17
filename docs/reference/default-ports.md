@@ -1,0 +1,17 @@
+---
+title: "Default ports"
+description: "Default ports the AI Gateway listens on: router HTTP and HTTPS traffic, the Gateway-Controller REST API, and the admin health endpoints."
+mdx:
+  format: md
+---
+
+# Default ports
+
+The AI Gateway listens on four ports by default:
+
+| Port | Service | Description |
+|------|---------|-------------|
+| 8080 | Router | HTTP traffic |
+| 8443 | Router | HTTPS traffic |
+| 9090 | Gateway-Controller | REST API |
+| 9094 | Gateway-Controller Admin | Health and admin endpoints |
