@@ -1,0 +1,26 @@
+---
+title: "Minimum resource requirements"
+description: "Baseline CPU and memory requirements for AI Workspace setup and production planning."
+mdx:
+  format: md
+---
+
+# Minimum resource requirements
+
+Use these values as the minimum baseline when you plan AI Workspace capacity.
+
+## Minimum baseline for Kubernetes
+
+The high-availability guide provides these baseline requests and limits.
+
+| Component | CPU request | Memory request | CPU limit | Memory limit |
+|---|---:|---:|---:|---:|
+| Platform API | `250m` | `256Mi` | `500m` | `512Mi` |
+| AI Workspace UI | `100m` | `128Mi` | `500m` | `256Mi` |
+
+For high availability, keep two or more replicas of both components.
+
+## Related
+
+- [Run in high availability](../production/high-availability.md)
+- [Get started with AI Workspace](../getting-started.md)
